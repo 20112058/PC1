@@ -1,0 +1,22 @@
+/* Estilo base para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo para el botón primario */
+.primary-button {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.primary-button:hover {
+  background-color: #2980b9;
+}
